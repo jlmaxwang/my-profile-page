@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+background-color:#FAFAFA ;
+font-family: 'Ubuntu', sans-serif;
+color: #393e46;
+font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 700px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.introduction-white-card {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 10px auto;
+  border: 5px, solid, black;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.introduction-white-card img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.introduction-white-card img:hover {
+  width: 20rem;
+  height: auto;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.followme-white-card {
+  margin: 20px auto;
+  border: 2px, solid, black;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.introduction-white-card h1 {
+  padding-top: 3rem;
+}
+
+.introduction-white-card p {
+  padding: 2rem 2rem;
+}
+
+.followme-white-card i {
+  color: #7892c2;
+  font-size: 40px;
+}
+
+.followme-white-card i:hover {
+  color: #476e9e;
+}
+
+.followme-white-card li {
+  display: inline-block;
+  margin: 10px 10px;
+}
